@@ -20,4 +20,6 @@ from django.urls import path, include
 urlpatterns = [
     path('playground/', include('playground.urls')),  #playground부르면 playground의 urls로 넘긴다는 말임.
     path('admin/', admin.site.urls),
+    path('league_of_legend/', include('league_of_legend.urls')),
+    path('angstar/', include('angstar.urls')),
 ]

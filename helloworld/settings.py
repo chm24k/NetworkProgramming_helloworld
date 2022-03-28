@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'playground',
+    'league_of_legend',
+    'angstar'
 ]
 
 MIDDLEWARE = [
